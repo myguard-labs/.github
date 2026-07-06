@@ -5,7 +5,7 @@ mail-filtering stack in Go, and OWASP CRS hardening plugins — everything
 packaged and served as ready-to-install Debian/Ubuntu packages at
 **[deb.myguard.nl](https://deb.myguard.nl)**.
 
-## 📦 Package repository — [deb.myguard.nl](https://deb.myguard.nl)
+## Package repository — [deb.myguard.nl](https://deb.myguard.nl)
 
 Our APT repository ships nginx and [Angie](https://angie.software/) builds with
 HTTP/3, compile-time hardening, and a large set of dynamic modules, plus
@@ -14,7 +14,7 @@ more) for Debian and Ubuntu on amd64 + arm64. Install instructions, the full
 package index, and in-depth articles live on the site. Bugs and requests go to
 the [deb.myguard.nl issue tracker](https://github.com/myguard-labs/deb.myguard.nl).
 
-## 🌐 nginx / Angie modules
+## nginx / Angie modules
 
 Dynamic modules, all shipped pre-built in the APT repo:
 
@@ -25,7 +25,7 @@ Dynamic modules, all shipped pre-built in the APT repo:
 - [nginx-zstd-module](https://github.com/myguard-labs/nginx-zstd-module) — Zstandard compression, fixed and maintained
 - [nginx-http-sentinel-module](https://github.com/myguard-labs/nginx-http-sentinel-module) — *experimental*: client reputation + JA4+ fingerprinting + AI-scraper tarpit
 
-## ✉️ Mail security stack
+## Mail security stack
 
 Out-of-process attachment analysis and hash-clearinghouse clients, built for
 busy rspamd/SpamAssassin pipelines:
@@ -37,7 +37,7 @@ busy rspamd/SpamAssassin pipelines:
 - [rspamd-olefy](https://github.com/myguard-labs/rspamd-olefy) — front-end wrapping oletools VBA-macro scanning for rspamd
 - [rspamd-kam-rules](https://github.com/myguard-labs/rspamd-kam-rules) — SpamAssassin KAM rules transpiled to rspamd
 
-## 🛡️ OWASP CRS / ModSecurity plugins
+## OWASP CRS / ModSecurity plugins
 
 False-positive exclusions plus opt-in positive-security allowlists for apps
 behind [OWASP CRS](https://coreruleset.org/) 4.x:
@@ -46,13 +46,13 @@ behind [OWASP CRS](https://coreruleset.org/) 4.x:
 - [vimbadmin-crs-plugin](https://github.com/myguard-labs/vimbadmin-crs-plugin) — CRS plugin for ViMbAdmin
 - [vaultwarden-crs-plugin](https://github.com/myguard-labs/vaultwarden-crs-plugin) — CRS plugin for Vaultwarden (Bitwarden), JSON-API aware
 
-## 🧰 Also here
+## Also here
 
 - [ViMbAdmin](https://github.com/myguard-labs/ViMbAdmin) — modernised 2026 fork of the virtual mailbox admin panel
 - [dockerized](https://github.com/myguard-labs/dockerized) — the Docker stacks we run in production; images on [Docker Hub](https://hub.docker.com/u/eilandert)
 
-## 🔗 Links
+## Links
 
-- 📦 APT repo + blog: [deb.myguard.nl](https://deb.myguard.nl)
-- 🐛 Package issues: [myguard-labs/deb.myguard.nl](https://github.com/myguard-labs/deb.myguard.nl)
-- 🐳 Docker Hub: [hub.docker.com/u/eilandert](https://hub.docker.com/u/eilandert)
+- APT repo + blog: [deb.myguard.nl](https://deb.myguard.nl)
+- Package issues: [myguard-labs/deb.myguard.nl](https://github.com/myguard-labs/deb.myguard.nl)
+- Docker Hub: [hub.docker.com/u/eilandert](https://hub.docker.com/u/eilandert)
