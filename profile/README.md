@@ -50,6 +50,7 @@ behind [OWASP CRS](https://coreruleset.org/) 4.x:
 
 - [ViMbAdmin](https://github.com/myguard-labs/ViMbAdmin) — modernised 2026 fork of the virtual mailbox admin panel
 - [dockerized](https://github.com/myguard-labs/dockerized) — the Docker stacks we run in production; images on [Docker Hub](https://hub.docker.com/u/eilandert)
+- [build_psol](https://github.com/myguard-labs/build_psol) — build scripts for the PageSpeed Optimization Library (PSOL) (archived)
 
 ## Links
 
