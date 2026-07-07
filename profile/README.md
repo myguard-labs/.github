@@ -63,3 +63,4 @@ behind [OWASP CRS](https://coreruleset.org/) 4.x:
 - Module directive reference: [deb.myguard.nl/nginx/modules-synopsis](https://deb.myguard.nl/nginx/modules-synopsis/)
 - Package issues: [myguard-labs/deb.myguard.nl](https://github.com/myguard-labs/deb.myguard.nl)
 - Docker Hub: [hub.docker.com/u/eilandert](https://hub.docker.com/u/eilandert)
+- Find us on Discord: [deb.myguard.nl/contact](https://deb.myguard.nl/contact/)
