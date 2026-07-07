@@ -7,12 +7,15 @@ packaged and served as ready-to-install Debian/Ubuntu packages at
 
 ## Package repository — [deb.myguard.nl](https://deb.myguard.nl)
 
-Our APT repository ships nginx and [Angie](https://angie.software/) builds with
+Our APT repository ships [nginx](https://deb.myguard.nl/nginx-modules/) and
+[Angie](https://deb.myguard.nl/angie-modules-optimized-extended/) builds with
 HTTP/3, compile-time hardening, and a large set of dynamic modules, plus
 supporting packages (rspamd, dovecot, clamav, libmodsecurity, lua-resty, and
 more) for Debian and Ubuntu on amd64 + arm64. Install instructions, the full
-package index, and in-depth articles live on the site. Bugs and requests go to
-the [deb.myguard.nl issue tracker](https://github.com/myguard-labs/deb.myguard.nl).
+package index, and in-depth articles live on the site. Full directive
+reference for every module: [modules synopsis](https://deb.myguard.nl/nginx/modules-synopsis/).
+Bugs and requests go to the
+[deb.myguard.nl issue tracker](https://github.com/myguard-labs/deb.myguard.nl).
 
 ## nginx / Angie modules
 
@@ -55,5 +58,8 @@ behind [OWASP CRS](https://coreruleset.org/) 4.x:
 ## Links
 
 - APT repo + blog: [deb.myguard.nl](https://deb.myguard.nl)
+- nginx stack + modules: [deb.myguard.nl/nginx-modules](https://deb.myguard.nl/nginx-modules/)
+- Angie stack + modules: [deb.myguard.nl/angie-modules-optimized-extended](https://deb.myguard.nl/angie-modules-optimized-extended/)
+- Module directive reference: [deb.myguard.nl/nginx/modules-synopsis](https://deb.myguard.nl/nginx/modules-synopsis/)
 - Package issues: [myguard-labs/deb.myguard.nl](https://github.com/myguard-labs/deb.myguard.nl)
 - Docker Hub: [hub.docker.com/u/eilandert](https://hub.docker.com/u/eilandert)
