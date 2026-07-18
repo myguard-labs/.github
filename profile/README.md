@@ -28,6 +28,7 @@ Dynamic modules, all shipped pre-built in the APT repo:
 - [nginx-zstd-module](https://github.com/myguard-labs/nginx-zstd-module) — Zstandard compression, fixed and maintained
 - [nginx-http-shield-module](https://github.com/myguard-labs/nginx-http-shield-module) — *upcoming*: legacy-exploit floor, ~400 compiled-in signatures (Log4Shell, Shellshock, SQLi, traversal, RCE chains, SSRF) in one Aho-Corasick pass, ~1 µs/request. Not a WAF — ModSecurity/Coraza + CRS stay the front line; this is the last line of defense for hosters who don't control what their customers install
 - [nginx-http-sentinel-module](https://github.com/myguard-labs/nginx-http-sentinel-module) — *experimental*: client reputation + JA4+ fingerprinting + AI-scraper tarpit
+- [nginx-test-harness](https://github.com/myguard-labs/nginx-test-harness) — how we test the modules above: functional + leak testing in C (fd/cycle-pool deltas, fault injection), runs the same rule files on nginx and Angie ([guide](https://deb.myguard.nl/articles/nginx-test-harness/))
 
 ## Mail security stack
 
